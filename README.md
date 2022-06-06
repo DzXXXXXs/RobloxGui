@@ -1,9 +1,11 @@
-
-  do  local ui =  game:GetService("CoreGui"):FindFirstChild("NBTxTP Lib") 
+do 
+    local ui =  game:GetService("CoreGui"):FindFirstChild("NBTxTP Lib") 
     if ui then
         ui:Destroy()
     end
 end
+
+
 
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -1530,3 +1532,4 @@ end
 end
     return tap
 end
+return create
